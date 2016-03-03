@@ -2,13 +2,13 @@
 
 I am going to create a fake chat application in which I will demonstrate usage of different types of design patterns by producing a problem and solving it by using relevant pattern.
 
-### **my_first_design_patterns** have 5 directories (step1- step5) which cover following: 
+##### **my_first_design_patterns** have 5 directories (step1- step5) which cover following: 
 
-- The problem with the global scope - overuse global scope (folder step1)
-- Moving to one object and namespace (folder step2 - coming soon)
-- The Module design pattern (folder step3 - coming soon)
-- The Module Reveal pattern (folder step4 - coming soon)
-- Controlling the global access completetly (folder ste5 - coming soon)
+- The problem with the global scope - overuse global scope (step1)
+- Moving to one object and namespace (step2 - coming soon)
+- The Module design pattern (step3 - coming soon)
+- The Module Reveal pattern (step4 - coming soon)
+- Controlling the global access completetly (step5 - coming soon)
 
 
 ## Reference
