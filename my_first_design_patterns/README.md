@@ -9,12 +9,15 @@
 
   To solve that problem we will use two design patterns: **object literal design pattern** and **namespace pattern**.
 
-- Moving to One Object and Namespace (step2 - coming soon)
+- Moving to One Object and Namespace (step2)
   - move all the variables and functions into one object (example : o = {}) as its properties and methods, make sure to reference them properly (hint: usage of ```this```)
   - by creating an object we have reduced overuse of global scope but this pattern still introduce the risk of someone else using the same name for our object
   - creating a long name as namespace (com.mywebsitename.uk) for our object solves the risk problem but is it the right solution?
 
 - The Module design pattern (step3 - coming soon)
+  - create a real privacy control (enable public methods to the user and hide (make it private) variables and echo method)
+  - having a clear public API
+  - true encapsulation
 - The Module Reveal pattern (step4 - coming soon)
 - Controlling the global access completetly (ste5 - coming soon)
 
