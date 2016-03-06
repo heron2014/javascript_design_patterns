@@ -39,7 +39,6 @@ var chatModule = (function () {
       echo(leadcomputer + msg);
     },
     saySassyStuff : function () {
-      console.log(aSassyStuff.length);
       var msg = aSassyStuff[ Math.floor(Math.random() * aSassyStuff.length)];
       echo(leadcomputer + msg);
     }
@@ -47,9 +46,14 @@ var chatModule = (function () {
 
 })();
 
-
 // console.log(chatModule.echo) - not accesible - private
 
+//invoke all your public methods automaticcally
+$(document).ready(function () {
+  chatModule.talk('this is a Module pattern');
+  chatModule.replyYesNo();
+  chatModule.saySassyStuff();
+});
 
 
 
