@@ -1,8 +1,9 @@
-//what is namespace
+//namespace
+var com = com || {};
+com.mywebsitename = com.mywebsitename || {};
+com.mywebsitename.uk = com.mywebsitename.uk || {};
 
-
-//create object literal,make sure to reference right properties by using 'this'
-var o = {
+com.mywebsitename.uk = {
   leadself : 'Me: ',
   leadcomputer : "PC: ",
   aSaid : ["This is a Cyber Chat"],
