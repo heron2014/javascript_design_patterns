@@ -5,10 +5,10 @@ I am going to create a fake chat application in which I will demonstrate usage o
 ##### **my_first_design_patterns** have 5 directories (step1- step5) which cover following: 
 
 - The problem with the global scope - overuse global scope (step1)
-- Moving to one object and namespace (step2 - coming soon)
-- The Module design pattern (step3 - coming soon)
-- The Module Reveal pattern (step4 - coming soon)
-- Controlling the global access completetly (step5 - coming soon)
+- Moving to one object and namespace (step2)
+- The Module design pattern (step3)
+- The Module Reveal pattern (step4)
+- Controlling the global access completetly (step5)
 
 
 ## Reference
