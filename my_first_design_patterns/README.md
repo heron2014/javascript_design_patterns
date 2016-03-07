@@ -1,4 +1,4 @@
-## Folders step1 - step5 cover following: 
+## Folders step1 - step5 covers following: 
 
 - The problem with the global scope - overuse global scope (step1)
   - build the fake chat application
@@ -35,8 +35,19 @@
   Problems with this pattern are:
   - in your exposed methods (in return statement) we don't have access to private members which means we can't override these methods once the document is completed
 
-- Controlling the global access completetly (ste5 - coming soon)
+- Controlling the global access completetly (ste5)
+  Steps to do:
+   - make everything private(nothing is accesible in global scope)
+   - by defining condition we will add elements to the global scope
+   - send things from the global scope into this module
 
+  To avoid global scope entirely we can wrap up our module in self a big self invoking function. 
+  This way nothing is accesible outside, everything is private, well almost! We still have 2 global variables : document and JQuery.
+
+  We can solve this problem by sending 3 object: window, document and jQuery into our module.
+  But why are we adding window as well?
+
+  - by sending window object we can create public API inside the window object. We will create property chatModule and assign it to our chatModule to the window object, this way we control what is accesible in global scope.
 
 ## Reference
 
