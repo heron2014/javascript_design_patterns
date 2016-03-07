@@ -14,11 +14,17 @@
   - by creating an object we have reduced overuse of global scope but this pattern still introduce the risk of someone else using the same name for our object
   - creating a long name as namespace (com.mywebsitename.uk) for our object solves the risk problem but is it the right solution?
 
-- The Module design pattern (step3 - coming soon)
-  - create a real privacy control (enable public methods to the user and hide (make it private) variables and echo method)
+- The Module design pattern (step3)
+  - create a real privacy control (enable public methods to the user and hide (make it private members) variables and echo method)
   - having a clear public API
-  - true encapsulation
+  - true encapsulation 
+
+  The problem with this pattern is that we treated private and public members differently by seperating them and adding extra complexity (explain what complexity)
+
 - The Module Reveal pattern (step4 - coming soon)
+  - limitation of Module Pattern introduced another pattern which is called Reveal Pattern 
+  - upgraded version of Module Pattern from step3
+
 - Controlling the global access completetly (ste5 - coming soon)
 
 
@@ -26,3 +32,4 @@
 
 - what is global scope
 - what is namespace
+- what is encapsulation
