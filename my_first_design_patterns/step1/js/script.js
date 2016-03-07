@@ -14,22 +14,34 @@ var leadself = 'Me: ',
 
 //these are 3 public methods
 function talk (msg) {
-
+	echo(leadself + msg);
 }
 
 //computer replies
 function replyYesNo () {
-  
+  var msg = Math.random() > 0.5 ? msgYes : msgNo;
+  echo(leadcomputer + msg);
 }
 
-function saySassyStuff (msg) {
-  
+function saySassyStuff () {
+  var msg = aSassyStuff[ Math.floor(Math.random() * aSassyStuff.length)];
+  echo(leadcomputer + msg);
 }
 
 //this one we want to be private method, not available to the user (but for now is public)
 function echo (msg) {
   aSaid.push("<div>" + msg + "</div>");
 
+  //show only six chats , not more
+  var aSaidLength = aSaid.length,
+  	start = Math.max(aSaidLength - 6, 0), //that value or 0 , avoid any negative numbers
+  	out = '';
+
+  	for (var i = start; i < aSaidLength; i++) {
+  		out += aSaid[i];
+  	}
+
+  $('.chat').html(out);	
   $('#talk span').text(msg);
 }
 
