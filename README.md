@@ -2,7 +2,7 @@
 
 I am going to create a fake chat application in which I will demonstrate usage of different types of design patterns by producing a problem and solving it by using relevant pattern.
 
-##### **my_first_design_patterns** have 5 directories (step1- step5) which cover following: 
+##### **my_first_design_patterns** have 5 directories (step1- step5) which covers following: 
 
 - The problem with the global scope - overuse global scope (step1)
 - Moving to one object and namespace (step2)
@@ -10,6 +10,16 @@ I am going to create a fake chat application in which I will demonstrate usage o
 - The Module Reveal pattern (step4)
 - Controlling the global access completetly (step5)
 
+##### **creational_design_patterns** have 6 directories (step1-step6) which covers following:
+
+Creational Design Patterns are patterns that relates to creation of objects. These are:
+
+- The Singleton design pattern (step1 - coming soon)
+- The Factory desig pattern (step2 - coming soon)
+- The Abstract Factory design pattern (step3 - coming soon)
+- The Builder design pattern (step4 - coming soon)
+- The Builder design pattern continue (step5 - coming soon)
+- The Prototype design pattern (step6 - coming soon)
 
 ## Reference
 
